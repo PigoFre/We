@@ -1,0 +1,46 @@
+.retrobowl-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.retrobowl-image {
+  width: 100%;
+  height: 512px;
+  object-fit: cover;
+  margin-bottom: 272px;
+}
+.retrobowl-div {
+  display: contents;
+}
+.retrobowl-text {
+  top: 8px;
+  left: 242px;
+  color: rgb(255, 255, 255);
+  z-index: 100;
+  position: absolute;
+  font-size: 100px;
+  font-family: Merriweather;
+}
+.retrobowl-text3 {
+  top: 435px;
+  left: 20px;
+  color: #68c758;
+  z-index: 100;
+  position: absolute;
+  font-size: 35px;
+  font-family: Merriweather;
+}
+.retrobowl-navlink {
+  top: 30px;
+  left: 32px;
+  position: absolute;
+  transition: 0.3s;
+  font-family: Fira Sans;
+  text-decoration: none;
+  background-color: #aa926e;
+}
+
